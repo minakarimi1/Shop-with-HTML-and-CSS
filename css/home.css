@@ -1,0 +1,24 @@
+header nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  font-size: 1em;
+}
+
+header nav .nav-right{
+  display: flex;
+  justify-content: center;
+}
+
+  header nav .nav-right a{
+    color: rgb(83, 4, 129);
+    padding: 5px 10px;
+    margin: 0 5px;
+    font-size: 1.1em;
+  }
+
+  header nav .nav-left .register-login-btn{
+    padding: 5px 8px;
+
+  }
