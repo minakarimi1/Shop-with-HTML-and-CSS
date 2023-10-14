@@ -1,3 +1,7 @@
+:root{
+  --icon-code:#530481;
+}
+
 header nav{
   display: flex;
   justify-content: space-between;
@@ -11,14 +15,37 @@ header nav .nav-right{
   justify-content: center;
 }
 
-  header nav .nav-right a{
-    color: rgb(83, 4, 129);
+header nav .nav-right a{
+    color: var(--icon-code);
     padding: 5px 10px;
     margin: 0 5px;
     font-size: 1.1em;
-  }
+}
 
-  header nav .nav-left .register-login-btn{
-    padding: 5px 8px;
+header nav .nav-left{
+}
 
-  }
+header nav .nav-left .register-login-btn{
+border: 1px solid var(--icon-code);
+border-radius: 5px;
+padding: 5px 8px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+header nav .nav-left .register-login-btn i{
+color: var(--icon-code);
+margin: 8px 8px  8px 6px;;
+font-size: 1.2em;
+
+}
+
+header nav .nav-left .register-login-btn a{
+  color: var(--icon-code);
+  margin: 0px 0px  0px 8px;
+  font-size: 0.95em;
+
+
+}
+
