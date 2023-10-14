@@ -2,6 +2,7 @@
   --icon-code:#530481;
 }
 
+/*>>>>>>> menu nav <<<<<<< */
 header nav{
   display: flex;
   justify-content: space-between;
@@ -22,8 +23,8 @@ header nav .nav-right a{
     font-size: 1.1em;
 }
 
-header nav .nav-left{
-}
+/* header nav .nav-left{
+} */
 
 header nav .nav-left .register-login-btn{
 border: 1px solid var(--icon-code);
@@ -45,7 +46,9 @@ header nav .nav-left .register-login-btn a{
   color: var(--icon-code);
   margin: 0px 0px  0px 8px;
   font-size: 0.95em;
-
-
 }
+
+/*>>>>>>> section slider <<<<<<< */
+
+
 
