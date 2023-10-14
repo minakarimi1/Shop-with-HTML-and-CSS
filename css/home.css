@@ -1,8 +1,10 @@
 :root{
   --icon-code:#530481;
+  --icon-code-white:#ffffff;
+
 }
 
-/*>>>>>>> menu nav <<<<<<< */
+/*------ menu nav -------*/
 header nav{
   display: flex;
   justify-content: space-between;
@@ -48,7 +50,67 @@ header nav .nav-left .register-login-btn a{
   font-size: 0.95em;
 }
 
-/*>>>>>>> section slider <<<<<<< */
+/*------slider section-------*/
+.slider{
+  position: relative;
+  font-size: 1em;
+}
+/* .slider .slides{} */
+
+
+.slider .slides .item{
+  position: relative;
+  display: none;
+}
+.slider .slides .item img{
+  width: 100%;
+}
+.slider .slides .item span{
+  position: absolute;
+  z-index: 1;
+}
+
+.slider .slides .item .s1{
+  position: absolute;
+  z-index: 1;
+  color: #6b6a6a;
+  right: 5%;
+  top: 40%;
+  font-size: 1.2em;
+  font-weight: bold;
+
+}
+
+.slider .slides .item .s2{
+  position: absolute;
+  z-index: 1;
+  top: 40%;
+  right: 5%;
+  color: var(--icon-code-white);
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.slider .slides .item .s3{
+  position:absolute;
+  z-index: l;
+  top: 40%;
+  right: 5%;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: var(--icon-code-white);
+}
+
+.slider .slides .active{
+  display: block;
+  animation-name: fadeIn;
+  animation-duration: 2s;
+}
+
+/* slides button */
+
+
+
 
 
 
