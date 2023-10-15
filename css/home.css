@@ -109,7 +109,20 @@ header nav .nav-left .register-login-btn a{
 
 /* slides button */
 
-
+.slider .buttons {
+  position: absolute;
+  bottom: 20px;
+  left: 40px;
+  z-index: 1;
+  color: rgba(49, 48, 48, 0.4);
+}
+.slider .buttons i {
+  margin-right: 5px;
+  cursor: pointer;
+}
+.slider .buttons i:hover {
+  color: rgba(209, 241, 52, 0.4);
+}
 
 
 
