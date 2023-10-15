@@ -1,3 +1,4 @@
+let slideIndex = 1;
 function setSlide(input, index) {
   slideIndex = index;
   let item = document.querySelector(`#${input}`);
@@ -15,4 +16,4 @@ setInterval(() => {
     slideIndex = 1;
   }
   setSlide(`slide${slideIndex}`, slideIndex);
-}, 6000);
+}, 4000);

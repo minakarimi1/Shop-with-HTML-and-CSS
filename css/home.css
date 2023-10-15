@@ -1,6 +1,8 @@
 :root{
   --icon-code:#530481;
   --icon-code-white:#ffffff;
+  --button-code-milky:#dfdddd;
+  --button-code-gray:#727171;
 
 }
 
@@ -114,17 +116,14 @@ header nav .nav-left .register-login-btn a{
   bottom: 20px;
   left: 40px;
   z-index: 1;
-  color: rgb(7, 7, 7);
-  box-shadow:  rgb(255, 255, 255) ;
-
-
+  color: var(--button-code-gray);
 }
 .slider .buttons i {
   margin-right: 5px;
   cursor: pointer;
 }
 .slider .buttons i:hover {
-  color: rgba(248, 191, 160, 0.4);
+  color: var(--button-code-milky);
 }
 
 /* prodoct section */
