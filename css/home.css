@@ -128,6 +128,90 @@ header nav .nav-left .register-login-btn a{
 
 /* prodoct section */
 
+.prodoct-sec-new {
+  padding: 20px 10px;
+  font-size: 1em;
+}
+.shoping-card {
+  text-align: center;
+  box-shadow: 0px 2px 8px 0px rgb(0, 0, 0, 0.2);
+  margin: 10px 15px;
+  border-radius: 5px;
+  padding: 10px;
+}
+.shoping-card .img-sec {
+  position: relative;
+}
+.shoping-card .img-sec img {
+  width: 50%;
+}
+.shoping-card .img-sec .hot-offer {
+  background-color: red;
+  color: white;
+  padding: 3px 5px;
+  border-radius: 5px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 0.9;
+}
+.shoping-card .img-sec .stars {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 0.9;
+  color: #ffe600;
+}
+.shoping-card .title {
+  color: #333;
+  margin: 15px;
+}
+.shoping-card .button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 15px;
+}
+.shoping-card .button .right {
+}
+.shoping-card .button .right .price {
+  color: #666;
+  font-weight: bold;
+}
+.shoping-card .button .left {
+  display: flex;
+}
+.shoping-card .button .left .extend-button {
+  display: flex;
+  margin-left: 5px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(7, 239, 166);
+  color: white;
+  width: 40px;
+  padding: 8px 12px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.75s;
+}
+.shoping-card .button .left .extend-button:hover {
+  width: 100px;
+}
+.shoping-card .button .left .extend-button .b-text {
+  display: none;
+  color: #000000;
+}
+.shoping-card .button .left .extend-button:hover .b-text {
+  display: block;
+}
+.shoping-card .button .left .extend-button .b-icon {
+  color: white;
+}
+
+.shoping-card .button .left .extend-button a {
+}
+.shoping-card .button .left .extend-button a i {
+}
 
 
 
