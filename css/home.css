@@ -172,8 +172,7 @@ header nav .nav-left .register-login-btn a{
   align-items: center;
   padding: 5px 15px;
 }
-.shoping-card .button .right {
-}
+
 .shoping-card .button .right .price {
   color: #666;
   font-weight: bold;
@@ -208,10 +207,7 @@ header nav .nav-left .register-login-btn a{
   color: white;
 }
 
-.shoping-card .button .left .extend-button a {
-}
-.shoping-card .button .left .extend-button a i {
-}
+
 
 /*------supper offer section------*/
 .supper-offer-section{
